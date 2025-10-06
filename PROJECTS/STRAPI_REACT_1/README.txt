@@ -63,3 +63,15 @@ GET /api/products?populate[brand][populate]=country
 
 Və ya bir az daha çox dərinlik:
 GET /api/products?populate[brand][populate][country][populate]=continent
+
+
+-------------------------------------------------------
+npx create-react-app@latest project_name
+npm run start
+
+-------------------------------------------------------
+npm i react-router-dom
+
+-------------------------------------------------------
+npm install -D tailwindcss@3
+npx tailwindcss init

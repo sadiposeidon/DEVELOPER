@@ -1,3 +1,3 @@
 export default function Products() {
-    return <h1>Hi, Products!</h1>
+    return <h1 className="text-3xl font-bold underline">Hi, Products!</h1>
 }
