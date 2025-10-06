@@ -1,0 +1,2 @@
+### GET ONE PRODUCT LIST IN FILTER
+http://localhost:1337/api/products?filters[id][$eq]=2

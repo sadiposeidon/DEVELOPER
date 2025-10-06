@@ -1,0 +1,7 @@
+### DELETE PRODUCT
+DELETE http://localhost:1337/api/products/bs2ginzozc06l72pvxfcrt24
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU5NzMzOTIwLCJleHAiOjE3NjIzMjU5MjB9.mD551T4Ah9mvHyyzWZi0Gb0Aw1YgKxng0kwt8jHoyTs
+
+### GET PRODUCT
+GET http://localhost:1337/api/products/bs2ginzozc06l72pvxfcrt24
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU5NzMzOTIwLCJleHAiOjE3NjIzMjU5MjB9.mD551T4Ah9mvHyyzWZi0Gb0Aw1YgKxng0kwt8jHoyTs
