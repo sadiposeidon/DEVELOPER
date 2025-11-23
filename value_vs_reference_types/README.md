@@ -1,5 +1,5 @@
 ***
-# 🌱 1. Proqramlamada Dəyər (Value) və İstinad (Reference) nə deməkdir?
+# 🌱 1. C#-da Dəyər (Value) və İstinad (Reference) nə deməkdir?
 
 ## Proqram işləyəndə yaddaş iki əsas hissəyə bölünür:
 
