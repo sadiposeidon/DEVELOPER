@@ -1,4 +1,4 @@
-***
+
 # 🌱 1. C#-da Dəyər (Value) və İstinad (Reference) nə deməkdir?
 
 ## Proqram işləyəndə yaddaş iki əsas hissəyə stack, heap bölünür:
@@ -12,7 +12,7 @@ Heap			- Böyük obyektlər və referans tipli obyektlər
 
 ### 🔵 Value & Reference Type fərqi
 <pre>
-Value type 		- dəyişən birbaşa öz dəyərini saxlayır.</br>
+Value type 		- dəyişən birbaşa öz dəyərini saxlayır.
 Reference type 	- dəyişən obyektin özünü saxlamır, onun Heap-dəki ünvanını saxlayır.
 </pre>
 
@@ -32,8 +32,8 @@ Dəyər birbaşa stack-də saxlanılır.
 
 ### 🎯 Əsas xüsusiyyət:
 <pre>
-	Kopyalandıqda dəyərin surəti çıxarılır.
-	İki dəyişən bir-birinə təsir etmir.
+Kopyalandıqda dəyərin surəti çıxarılır.
+İki dəyişən bir-birinə təsir etmir.
 </pre>
 
 ### 📌 Misal:
@@ -48,4 +48,4 @@ Console.WriteLine(b); // 20
 </pre>
 
 ➡️ b dəyişdi, a dəyişmədi. Çünki bunlar ayrı dəyərlərdir.
-***
+
