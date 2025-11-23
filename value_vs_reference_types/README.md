@@ -63,11 +63,30 @@ Bunlara daxildir:
 </pre>
 
 ## Reference type necə işləyir?
-
+<pre>
 Obyekt Heap-də yaradılır.
 Dəyişən yalnız Heap-dəki obyektin ünvanını (referansı) saxlayır.
+</pre>
 
 ## 🎯 Əsas xüsusiyyət:
 Bir dəyişəni digərinə verəndə ünvan ötürülür, yəni eyni obyektə baxırlar.
 
-📌 Misal:
+## 📌 Misal:
+<pre>
+class Student
+{
+    public string Name;
+}
+
+Student s1 = new Student();
+s1.Name = "Ali";
+
+Student s2 = s1;
+
+s2.Name = "Veli";
+
+Console.WriteLine(s1.Name); // Veli
+</pre>
+
+## ➡️ Niyə?
+Çünki s1 və s2 eyni Heap obyektinə baxır. s2 dəyişəndə s1 də dəyişir.
