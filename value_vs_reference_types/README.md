@@ -3,34 +3,41 @@
 
 ## Proqram işləyəndə yaddaş iki əsas hissəyə stack, heap bölünür:
 
-<pre>
 ### 🧠 Yaddaş növləri
+<pre>
 Yaddaş növü		- Nə saxlanılır?</br>
 Stack			- Kiçik və sabit ölçülü dəyişənlər. (Value type-ların öz məlumatı)</br>
 Heap			- Böyük obyektlər və referans tipli obyektlər
+</pre>
 
 ### 🔵 Value & Reference Type fərqi
-Value type - dəyişən birbaşa öz dəyərini saxlayır.</br>
-Reference type - dəyişən obyektin özünü saxlamır, onun Heap-dəki ünvanını saxlayır.
+<pre>
+Value type 		- dəyişən birbaşa öz dəyərini saxlayır.</br>
+Reference type 	- dəyişən obyektin özünü saxlamır, onun Heap-dəki ünvanını saxlayır.
 </pre>
--------------------------------------------------
-🟦 2. Value Type-lar (Dəyər tipləri)
 
+-------------------------------------------------
+# 🟦 2. Value Type-lar (Dəyər tipləri)
+
+<pre>
 Bunlara daxildir:
 	int, double, float, bool, char
 	struct
 	enum
 	DateTime
+</pre>
 
-Value type necə işləyir?
-
+## Value type necə işləyir?</br>
 Dəyər birbaşa stack-də saxlanılır.
 
-🎯 Əsas xüsusiyyət:
+### 🎯 Əsas xüsusiyyət:
+<pre>
 	Kopyalandıqda dəyərin surəti çıxarılır.
 	İki dəyişən bir-birinə təsir etmir.
+</pre>
 
-📌 Misal:
+### 📌 Misal:
+<pre>
 int a = 10;
 int b = a;
 
@@ -38,6 +45,7 @@ b = 20;
 
 Console.WriteLine(a); // 10
 Console.WriteLine(b); // 20
+</pre>
 
 ➡️ b dəyişdi, a dəyişmədi. Çünki bunlar ayrı dəyərlərdir.
 ***
