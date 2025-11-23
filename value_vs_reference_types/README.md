@@ -3,12 +3,12 @@
 
 Proqram işləyəndə yaddaş iki əsas hissəyə bölünür:
 
-Yaddaş növü		Nə saxlanılır?
-Stack			Kiçik və sabit ölçülü dəyişənlər. (Value type-ların öz məlumatı)
-Heap			Böyük obyektlər və referans tipli obyektlər
+Yaddaş növü		- Nə saxlanılır?
+Stack			- Kiçik və sabit ölçülü dəyişənlər. (Value type-ların öz məlumatı)
+Heap			- Böyük obyektlər və referans tipli obyektlər
 
-Value type 		— dəyişən birbaşa öz dəyərini saxlayır.
-Reference type 	— dəyişən obyektin özünü saxlamır, onun Heap-dəki ünvanını saxlayır.
+Value type 		- dəyişən birbaşa öz dəyərini saxlayır.
+Reference type 	- dəyişən obyektin özünü saxlamır, onun Heap-dəki ünvanını saxlayır.
 
 -------------------------------------------------
 🟦 2. Value Type-lar (Dəyər tipləri)
