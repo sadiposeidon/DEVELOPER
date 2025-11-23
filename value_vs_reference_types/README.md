@@ -60,7 +60,7 @@ Bunlara daxildir:
 	interface
 	delegate
 	object (bütün tiplərin atası)
-<pre>
+</pre>
 
 ## Reference type necə işləyir?
 
