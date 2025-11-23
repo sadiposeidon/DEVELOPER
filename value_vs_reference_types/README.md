@@ -1,7 +1,7 @@
 ***
 # 🌱 1. C#-da Dəyər (Value) və İstinad (Reference) nə deməkdir?
 
-## Proqram işləyəndə yaddaş iki əsas hissəyə bölünür:
+## Proqram işləyəndə yaddaş iki əsas hissəyə stack, heap bölünür:
 
 ### 🧠 Yaddaş növləri
 Yaddaş növü		- Nə saxlanılır?
@@ -9,7 +9,7 @@ Stack			- Kiçik və sabit ölçülü dəyişənlər. (Value type-ların öz mə
 Heap			- Böyük obyektlər və referans tipli obyektlər
 
 ### 🔵 Value & Reference Type fərqi
-Value type - dəyişən birbaşa öz dəyərini saxlayır.
+Value type - dəyişən birbaşa öz dəyərini saxlayır.</br>
 Reference type - dəyişən obyektin özünü saxlamır, onun Heap-dəki ünvanını saxlayır.
 
 -------------------------------------------------
