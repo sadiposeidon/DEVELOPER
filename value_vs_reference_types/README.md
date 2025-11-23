@@ -1,7 +1,7 @@
 ***
-#🌱 1. Proqramlamada Dəyər (Value) və İstinad (Reference) nə deməkdir?
+# 🌱 1. Proqramlamada Dəyər (Value) və İstinad (Reference) nə deməkdir?
 
-##Proqram işləyəndə yaddaş iki əsas hissəyə bölünür:
+## Proqram işləyəndə yaddaş iki əsas hissəyə bölünür:
 
 ### 🧠 Yaddaş növləri
 Yaddaş növü		- Nə saxlanılır?
