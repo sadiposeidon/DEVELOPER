@@ -50,29 +50,24 @@ Console.WriteLine(b); // 20
 ➡️ b dəyişdi, a dəyişmədi. Çünki bunlar ayrı dəyərlərdir.
 
 -------------------------------------------------
-🟩 3. Reference Type-lar (İstinad tipləri)
+# 🟩 3. Reference Type-lar (İstinad tipləri)
+
+<pre>
 Bunlara daxildir:
+	class
+	array (int[])
+	string (amma davranışı xüsusi izah olunacaq)
+	interface
+	delegate
+	object (bütün tiplərin atası)
+<pre>
 
-class
-
-array (int[])
-
-string (amma davranışı xüsusi izah olunacaq)
-
-interface
-
-delegate
-
-object (bütün tiplərin atası)
-
-Reference type necə işləyir?
+## Reference type necə işləyir?
 
 Obyekt Heap-də yaradılır.
-
 Dəyişən yalnız Heap-dəki obyektin ünvanını (referansı) saxlayır.
 
-🎯 Əsas xüsusiyyət:
-
+## 🎯 Əsas xüsusiyyət:
 Bir dəyişəni digərinə verəndə ünvan ötürülür, yəni eyni obyektə baxırlar.
 
 📌 Misal:
