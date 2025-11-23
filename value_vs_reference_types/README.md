@@ -4,7 +4,7 @@
 ## Proqram işləyəndə yaddaş iki əsas hissəyə stack, heap bölünür:
 
 ### 🧠 Yaddaş növləri
-Yaddaş növü		- Nə saxlanılır?</br>
+Yaddaş növü &emsp;&emsp; - &emsp;&emsp; Nə saxlanılır?</br>
 Stack			- Kiçik və sabit ölçülü dəyişənlər. (Value type-ların öz məlumatı)</br>
 Heap			- Böyük obyektlər və referans tipli obyektlər
 
